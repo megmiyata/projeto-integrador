@@ -1,0 +1,57 @@
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* imagens Slide */
+
+#fundoBuscar div img {
+    object-fit: cover;
+}
+
+/* Buscar Slide */
+
+#buscarGeral {
+    margin: auto;
+    top: -250px;
+}
+
+/* Começo main */
+
+#recomendacoes {
+    border-radius: 50%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+#recomendacoes:hover {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#legendaImagemDicas {
+    position: relative;
+    text-align: center;
+    color: white;
+    top: -85px;
+}
+
+#imagemDicas {
+    object-fit: cover;
+    max-height: 150px;
+    -webkit-box-shadow: 8px -7px 15px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px -7px 15px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 8px -7px 15px -7px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+    
+}
+
+#imagemDicas:hover {
+    -webkit-filter: grayscale(100%);filter: grayscale(100%);
+}
+
+/* Fim main */
+
+/* Rodapé */
